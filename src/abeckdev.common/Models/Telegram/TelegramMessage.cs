@@ -10,4 +10,3 @@ namespace abeckdev.common.Models.Telegram
         public string Content { get; set; }
     }
 }
-}
