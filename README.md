@@ -67,4 +67,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-* Thanks [Wade](https://dotnetcoretutorials.com/author/admin/) from [.NET Core Tutorials](https://dotnetcoretutorials.com/) for the good [HowTo use MailKit in .NET Core](https://dotnetcoretutorials.com/2017/11/02/using-mailkit-send-receive-email-asp-net-core/)
+* Thanks [Wade](https://dotnetcoretutorials.com/author/admin/) from [.NET Core Tutorials](https://dotnetcoretutorials.com/) for the good [HowTo use MailKit in .NET Core](https://dotnetcoretutorials.com/2017/11/02/using-mailkit-send-receive-email-asp-net-core/) Artikel.
