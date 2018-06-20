@@ -1,6 +1,7 @@
 # abeckdev-common
 
-![BuildBadge](https://beck-alexander.visualstudio.com/_apis/public/build/definitions/531aff45-7c56-4474-9f23-a13d022203e4/19/badge)
+![BuildBadge](https://beck-alexander.visualstudio.com/_apis/public/build/definitions/531aff45-7c56-4474-9f23-a13d022203e4/19/badge) [![NuGet](https://img.shields.io/nuget/dt/abeckdev.common.svg)](https://www.nuget.org/packages/abeckdev.common/)
+
 
 A library with common used C# methods in my projects.
 
@@ -34,7 +35,7 @@ If you have all needed Tools installed and already cloned the repository you can
 
 ### Prerequisites
 
-There is currently no available NuGet Package. If there will be one I will explain how to use it here.
+To use the library in your own projects you need to download the latest Version from [NuGet.org](https://www.nuget.org/packages/abeckdev.common/).
 
 ## Running the tests
 
