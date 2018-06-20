@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "abeckdev.common", "src\abeckdev.common\abeckdev.common.csproj", "{38A71B2A-E2A6-45D2-99AD-54FD8375A447}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "abeckdev.common", "src\abeckdev.common\abeckdev.common.csproj", "{38A71B2A-E2A6-45D2-99AD-54FD8375A447}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "abeckdev.common.test.unit", "test\abeckdev.common.test.unit\abeckdev.common.test.unit.csproj", "{05DD6786-A0DC-4D3E-8D8E-23B3C9412533}"
+	ProjectSection(ProjectDependencies) = postProject
+		{38A71B2A-E2A6-45D2-99AD-54FD8375A447} = {38A71B2A-E2A6-45D2-99AD-54FD8375A447}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +20,10 @@ Global
 		{38A71B2A-E2A6-45D2-99AD-54FD8375A447}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38A71B2A-E2A6-45D2-99AD-54FD8375A447}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38A71B2A-E2A6-45D2-99AD-54FD8375A447}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05DD6786-A0DC-4D3E-8D8E-23B3C9412533}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05DD6786-A0DC-4D3E-8D8E-23B3C9412533}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05DD6786-A0DC-4D3E-8D8E-23B3C9412533}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05DD6786-A0DC-4D3E-8D8E-23B3C9412533}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
