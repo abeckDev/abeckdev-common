@@ -14,10 +14,13 @@ Current available:
     <PackageLicenseUrl>https://github.com/abeckDev/abeckdev-common/blob/master/LICENSE</PackageLicenseUrl>
     <RepositoryUrl>https://github.com/abeckDev/abeckdev-common</RepositoryUrl>
     <RepositoryType>GitHub</RepositoryType>
-    <Version>1.0.0-alpha</Version>
+    <Version>1.1.0-alpha</Version>
     <PackageReleaseNotes>Alpha release
 
-E-Mail and Telegram Service not finally tested yet.</PackageReleaseNotes>
+E-Mail and Telegram Service not finally tested yet.
+
+Telegram ChatId is no longer Part of the Config File. 
+You now have to provide the ChatId in the Send Method.</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
