@@ -9,7 +9,7 @@ namespace abeckdev.common.Services
 {
     public interface ITelegramService
     {
-        void Send(TelegramMessage telegramMessage);
+        void Send(TelegramMessage telegramMessage, int TelegramChatId);
     }
     public class TelegramService : ITelegramService
     {
@@ -19,10 +19,10 @@ namespace abeckdev.common.Services
             _telegramConfiguration = telegramConfiguration;
         }
 
-        public async void Send(TelegramMessage telegramMessage)
+        public async void Send(TelegramMessage telegramMessage, int TelegramChatId)
         {
             var botClient = new TelegramBotClient(_telegramConfiguration.AccessToken);
-            Message message = await botClient.SendTextMessageAsync(new ChatId(_telegramConfiguration.ChatID), telegramMessage.Content);
+            Message message = await botClient.SendTextMessageAsync(new ChatId(TelegramChatId), telegramMessage.Content);
         }
     }
 }
