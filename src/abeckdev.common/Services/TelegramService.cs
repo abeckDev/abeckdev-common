@@ -10,6 +10,7 @@ namespace abeckdev.common.Services
     public interface ITelegramService
     {
         void Send(TelegramMessage telegramMessage, int TelegramChatId);
+        void Send(string MessageContent, int TelegramChatId);
     }
     public class TelegramService : ITelegramService
     {
