@@ -24,5 +24,13 @@ namespace abeckdev.common.Services
             var botClient = new TelegramBotClient(_telegramConfiguration.AccessToken);
             Message message = await botClient.SendTextMessageAsync(new ChatId(TelegramChatId), telegramMessage.Content);
         }
+
+        public async void Send(string MessageContent, int TelegramChatId)
+        {
+            var botClient = new TelegramBotClient(_telegramConfiguration.AccessToken);
+            TelegramMessage telegramMessage = new TelegramMessage();
+            telegramMessage.Content = MessageContent;
+            Message message = await botClient.SendTextMessageAsync(new ChatId(TelegramChatId), telegramMessage.Content);
+        }
     }
 }
