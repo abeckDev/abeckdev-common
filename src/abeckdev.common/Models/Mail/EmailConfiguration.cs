@@ -11,6 +11,7 @@ namespace abeckdev.common.Models.Mail
         int SmtpPort { get; }
         string SmtpUsername { get; set; }
         string SmtpPassword { get; set; }
+        string SecureOptions { get; set; }
     }
 
     public class EmailConfiguration : IEmailConfiguration
@@ -19,5 +20,6 @@ namespace abeckdev.common.Models.Mail
         public int SmtpPort { get; set; }
         public string SmtpUsername { get; set; }
         public string SmtpPassword { get; set; }
+        public string SecureOptions { get; set; }
     }
 }

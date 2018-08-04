@@ -49,11 +49,34 @@ namespace abeckdev.common.Services
                 Text = emailMessage.Content
             };
 
+
+            //Get SSL Settings
+            var options = new MailKit.Security.SecureSocketOptions();
+
+            switch (_emailConfiguration.SecureOptions)
+            {
+                case "SSL":
+                    options = MailKit.Security.SecureSocketOptions.SslOnConnect;
+                    break;
+                case "TLS":
+                    options = MailKit.Security.SecureSocketOptions.StartTls;
+                    break;
+                case "TLSlight":
+                    options = MailKit.Security.SecureSocketOptions.StartTlsWhenAvailable;
+                    break;
+                case "None":
+                    options = MailKit.Security.SecureSocketOptions.None;
+                    break;
+                default:
+                    options = MailKit.Security.SecureSocketOptions.Auto;
+                    break;
+            }
+
             //Gets the emailClient
             using (var emailClient = new MailKit.Net.Smtp.SmtpClient())
-            {
+            {   
                 //Connect with the SMTP Settings from Config File (Dependencie Injection)
-                emailClient.Connect(_emailConfiguration.SmtpServer, _emailConfiguration.SmtpPort, true);
+                emailClient.Connect(_emailConfiguration.SmtpServer, _emailConfiguration.SmtpPort, options);
 
                 //Remove OAuth Header
                 emailClient.AuthenticationMechanisms.Remove("XOAUTH2");
