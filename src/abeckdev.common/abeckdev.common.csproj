@@ -14,11 +14,11 @@ Current available:
     <PackageLicenseUrl>https://github.com/abeckDev/abeckdev-common/blob/master/LICENSE</PackageLicenseUrl>
     <RepositoryUrl>https://github.com/abeckDev/abeckdev-common</RepositoryUrl>
     <RepositoryType>GitHub</RepositoryType>
-    <Version>1.1.3-alpha</Version>
+    <Version>1.1.4-alpha</Version>
     <PackageReleaseNotes>Alpha release
 E-Mail and Telegram Service not finally tested yet.
 
-There is now a Config setting where you can set the SSL/TLS Settings for your E-Mail Connection.</PackageReleaseNotes>
+Namespace has now Changed to be compliant with common naming conventions.</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
