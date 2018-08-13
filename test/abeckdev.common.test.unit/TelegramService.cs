@@ -1,8 +1,8 @@
 using System;
 using Xunit;
-using abeckdev.common.Services;
+using AbeckDev.Common.Services;
 
-namespace abeckdev.common.test.unit
+namespace AbeckDev.Common.test.unit
 {
     public class TelegramService
     {

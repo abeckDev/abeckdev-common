@@ -7,9 +7,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net.Mail;
 using System.Threading.Tasks;
-using abeckdev.common.Models.Mail;
+using AbeckDev.Common.Models.Mail;
 
-namespace abeckdev.common.Services
+namespace AbeckDev.Common.Services
 {
     public interface IEmailService
     {

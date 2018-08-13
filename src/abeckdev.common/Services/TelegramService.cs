@@ -1,11 +1,11 @@
-﻿using abeckdev.common.Models.Telegram;
+﻿using AbeckDev.Common.Models.Telegram;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using Telegram.Bot;
 using Telegram.Bot.Types;
 
-namespace abeckdev.common.Services
+namespace AbeckDev.Common.Services
 {
     public interface ITelegramService
     {

@@ -1,10 +1,10 @@
-﻿using abeckdev.common.Models.Mail;
-using abeckdev.common.Models.Telegram;
-using abeckdev.common.Services;
+﻿using AbeckDev.Common.Models.Mail;
+using AbeckDev.Common.Models.Telegram;
+using AbeckDev.Common.Services;
 using MimeKit;
 using System;
 
-namespace abeckdev.common
+namespace AbeckDev.Common
 {
     public class Class1
     {

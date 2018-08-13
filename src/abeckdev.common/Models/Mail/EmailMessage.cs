@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace abeckdev.common.Models.Mail
+namespace AbeckDev.Common.Models.Mail
 {
     /// <summary>
     /// Contains the definition of an Email message

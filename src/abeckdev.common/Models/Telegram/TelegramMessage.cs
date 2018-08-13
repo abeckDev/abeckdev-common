@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace abeckdev.common.Models.Telegram
+namespace AbeckDev.Common.Models.Telegram
 {
     public class TelegramMessage
     {
