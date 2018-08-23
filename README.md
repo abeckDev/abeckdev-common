@@ -15,6 +15,7 @@ The following functions are implemented yet:
 
 * Mail Client based on [MailKit](https://www.nuget.org/packages/MailKit/)
 * Telegram Client based on [Telegram.Bot](https://www.nuget.org/packages/Telegram.Bot/)
+* String Extension - Create a Dictionary<string, string> from a string with KeyValue pairs by giving the seperator. 
 
 ## Getting Started
 
