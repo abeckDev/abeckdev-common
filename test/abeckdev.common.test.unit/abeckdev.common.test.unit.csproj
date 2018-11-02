@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\abeckdev.common\AbeckDev.Common.csproj" />
+    <ProjectReference Include="..\..\src\abeckdev.common\abeckdev.common.csproj" />
   </ItemGroup>
 
 </Project>
