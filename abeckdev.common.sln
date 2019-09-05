@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbeckDev.Common", "src\abeckdev.common\abeckdev.common.csproj", "{38A71B2A-E2A6-45D2-99AD-54FD8375A447}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbeckDev.Common.Test.Unit", "test\abeckdev.common.test.unit\AbeckDev.Common.Test.Unit.csproj", "{05DD6786-A0DC-4D3E-8D8E-23B3C9412533}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbeckDev.Common.Test.Unit", "test\abeckdev.common.test.unit\abeckdev.common.test.unit.csproj", "{05DD6786-A0DC-4D3E-8D8E-23B3C9412533}"
 	ProjectSection(ProjectDependencies) = postProject
 		{38A71B2A-E2A6-45D2-99AD-54FD8375A447} = {38A71B2A-E2A6-45D2-99AD-54FD8375A447}
 	EndProjectSection
