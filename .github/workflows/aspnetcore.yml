@@ -23,3 +23,9 @@ jobs:
     
     - name: Pack with dotnet
       run: dotnet pack --configuration Release
+      
+    - name: Upload Artifacts
+      uses: actions/upload-artifact@master
+      with:
+        name: drop
+        path: src/abeckdev.common/bin/Release/*.nupkg
