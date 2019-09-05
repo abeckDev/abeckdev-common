@@ -16,8 +16,8 @@ Current available:
     <PackageLicenseUrl>https://github.com/abeckDev/abeckdev-common/blob/master/LICENSE</PackageLicenseUrl>
     <RepositoryUrl>https://github.com/abeckDev/abeckdev-common</RepositoryUrl>
     <RepositoryType>GitHub</RepositoryType>
-    <Version>1.1.6-alpha</Version>
-    <PackageReleaseNotes>Added a string extension which can create a Dictonary&lt;string,string&gt; by giving the seperator.</PackageReleaseNotes>
+    <Version>1.1.7-alpha</Version>
+    <PackageReleaseNotes>Updated some minor Dependencies</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
