@@ -28,4 +28,4 @@ jobs:
       uses: actions/upload-artifact@master
       with:
         name: drop
-        path: src/abeckdev.common/bin/Release/*.nupkg
+        path: src/abeckdev.common/bin/Release/
