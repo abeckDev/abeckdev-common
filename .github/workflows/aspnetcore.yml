@@ -15,7 +15,8 @@ jobs:
         dotnet-version: 2.2.108
     - name: Check directory
       uses: jdickey/bash@master
-      args: "pwd; ls -la"
+      with:
+        args: "pwd; ls -la"
       
     - name: Build with dotnet
       run: dotnet build --configuration Release
