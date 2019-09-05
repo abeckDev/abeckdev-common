@@ -16,7 +16,7 @@ jobs:
     - name: Check directory
       uses: jcblw/bash@master
       with:
-        args: "pwd ls tree"
+        args: "pwd ls"
       
     - name: Build with dotnet
       run: dotnet build --configuration Release
