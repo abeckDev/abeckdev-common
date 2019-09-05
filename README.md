@@ -1,6 +1,7 @@
 # abeckdev-common
 
-[![Build Status](https://dev.azure.com/abeckdev/abeckdev-common/_apis/build/status/abeckDev.abeckdev-common)](https://dev.azure.com/abeckdev/abeckdev-common/_build/latest?definitionId=4) [![NuGet](https://img.shields.io/nuget/dt/abeckdev.common.svg)](https://www.nuget.org/packages/abeckdev.common/)
+[![Build Status](https://dev.azure.com/abeckdev/abeckdev-common/_apis/build/status/abeckDev.abeckdev-common)](https://dev.azure.com/abeckdev/abeckdev-common/_build/latest?definitionId=4) [![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fabeckdev%2Fabeckdev-common%2Fbadge&style=flat)](https://actions-badge.atrox.dev/abeckdev/abeckdev-common/goto) [![NuGet](https://img.shields.io/nuget/dt/abeckdev.common.svg)](https://www.nuget.org/packages/abeckdev.common/)
+
 
 [![NuGet Pre Release](https://img.shields.io/nuget/vpre/abeckdev.common.svg)](https://www.nuget.org/packages/abeckdev.common/)
 
